@@ -1,0 +1,132 @@
+/*   ----- Imports  -----  */
+/* using font from hosted services like Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;400;600&family=Permanent+Marker&display=swap');
+
+/* Center the body in the middle of the viewport 
+by defining min and max widths with auto right/left margins
+*/
+
+body {
+  background-color: lightblue;
+  color: slategray;
+  font-family: 'Fredoka One', cursive;
+  font-size: 110%;
+  font-weight: normal; 
+  margin:0 auto;
+  padding:4px;
+  min-width:400px;
+  max-width:70%;
+  text-align:center;
+  border: 2px solid chocolate;
+}
+
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+main {
+  border: 1px solid lightslategray;
+  background-color: lightblue;
+  color: slategray;
+  padding:10px;
+  margin: 4px;
+}
+
+header, article, footer {
+  border-bottom:1px solid lightslategray;
+  background-color: lightblue;
+  font-size: 100%;
+  font-weight: normal;
+  color: slategray;
+  margin:0 auto;
+  padding:3px;
+}
+
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {margin: 4px 0 0 0;}
+nav a {
+  text-decoration:none;
+  background-color: lightslategray;
+  border: chocolate;
+  padding:4px;
+  margin:4px;
+  color:whitesmoke;
+  font-weight:normal;
+  font-size: 100%;
+  vertical-align: auto;
+}
+/* Reverse the colors when hovering to give the user some interaction feedback.*/
+nav a:hover {
+  background-color: whitesmoke;
+  color:gray;
+}
+
+/* TABLE */
+table {
+  margin:0 auto;
+  border-collapse: separate;
+  border:1px solid lightslategray;
+  padding: 1px;
+
+}
+caption {color:lightslategray;}
+tr td, td th {
+  border: 1px solid lightslategray;
+  padding: 8px;
+}
+tr:nth-child(even){background-color:rgb(245, 244, 244);}
+th {
+  font-weight:normal;
+  padding: 1px;
+  background-color: lightslategray;
+  color: whitesmoke;
+  border:1px solid gray;
+  border-radius:3px;
+}
+
+
+/* FORM */
+fieldset {
+  border:1px solid gray;
+}
+legend {
+  background-color: lightslategray;
+  color: whitesmoke;
+  border:1px solid gray;
+  border-radius:3px;
+}
+label {
+  display:block;
+  margin-top:20px;
+}
+input {
+  padding:4px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 110%;
+  font-weight: normal;
+  color: slategray
+}
+select {
+  padding:4px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 110%;
+  font-weight: normal;
+  color: slategray
+}
+button {
+  font-family: 'Fredoka One', cursive;
+  font-size: 110%;
+  font-weight: normal; 
+  padding:4px;
+  background-color: gray;
+  color: whitesmoke;
+  border:1px solid gray;
+  border-radius:3px;
+}
+button:hover {
+  background-color: whitesmoke;
+  color: gray;
+}
+
