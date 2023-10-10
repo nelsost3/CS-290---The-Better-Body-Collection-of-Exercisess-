@@ -1,4 +1,4 @@
-CS 290 Course - Web Development 
+CS 290 Course - Web Development ☁️☀️☁️🏄🌷
 
 •	Summer session full stack MERN project that has a user-friendly customizable exercise list <br />
 •	The user has the ability to edit or delete their entries for future improvements in exercises <br />
